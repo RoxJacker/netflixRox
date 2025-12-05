@@ -25,35 +25,35 @@ class MainFragment: BrowseSupportFragment() {
                 "Acción · 2023",
                 R.mipmap.mishito,
                 "Un agente secreto debe detener una conspiración global antes de que sea demasiado tarde. Acción trepidante y efectos especiales de primer nivel.",
-                R.raw.v4
+                R.raw.v1
             ),
             Video(
                 "Persecución Extrema",
                 "Acción · 2023",
                 R.mipmap.mandarino,
                 "Una carrera contra el tiempo en las calles de una metrópolis. Explosiones, persecuciones y mucha adrenalina.",
-                R.raw.utzmg
+                R.raw.v2
             ),
             Video(
                 "Comando Especial",
                 "Acción · 2023",
                 R.mipmap.mishito,
                 "Un equipo de élite es enviado a una misión suicida tras las líneas enemigas. Solo los más valientes sobrevivirán.",
-                R.raw.nutella
+                R.raw.v3
             ),
             Video(
                 "Zona de Peligro",
                 "Acción · 2023",
                 R.mipmap.mandarino,
                 "En un mundo postapocalíptico, un guerrero solitario debe enfrentarse a bandas de saqueadores para proteger a los inocentes.",
-                R.raw.utzmg
+                R.raw.v4
             ),
             Video(
                 "Operación Rescate",
                 "Acción · 2023",
                 R.mipmap.mishito,
                 "Un ex-militar debe rescatar a su familia de las manos de un cartel peligroso. No hay margen para el error.",
-                R.raw.nutella
+                R.raw.v5
             )
         ))
         categories.add(ListRow(HeaderItem(1, "Acción"), accionVideos))
@@ -66,35 +66,35 @@ class MainFragment: BrowseSupportFragment() {
                 "Comedia · 2023",
                 R.mipmap.mandarino,
                 "Una comedia romántica llena de enredos y situaciones hilarantes. Te hará reír de principio a fin.",
-                R.raw.utzmg
+                R.raw.v6
             ),
             Video(
                 "La Oficina Loca",
                 "Comedia · 2023",
                 R.mipmap.mishito,
                 "El día a día en una oficina donde todo puede salir mal. Personajes excéntricos y diálogos ingeniosos.",
-                R.raw.nutella
+                R.raw.v7
             ),
             Video(
                 "Vacaciones Desastrosas",
                 "Comedia · 2023",
                 R.mipmap.mandarino,
                 "Una familia intenta disfrutar de unas vacaciones perfectas, pero todo sale mal de la manera más divertida posible.",
-                R.raw.utzmg
+                R.raw.v8
             ),
             Video(
                 "El Vecino Peculiar",
                 "Comedia · 2023",
                 R.mipmap.mishito,
                 "La llegada de un vecino extraño cambia la vida tranquila de un suburbio. Situaciones absurdas y humor inteligente.",
-                R.raw.nutella
+                R.raw.v9
             ),
             Video(
                 "Fiesta Sorpresa",
                 "Comedia · 2023",
                 R.mipmap.mandarino,
                 "Organizar la fiesta de cumpleaños perfecta se convierte en un caos total. Una comedia fresca y entretenida.",
-                R.raw.utzmg
+                R.raw.v10
             )
         ))
         categories.add(ListRow(HeaderItem(2, "Comedia"), comediaVideos))
@@ -107,35 +107,35 @@ class MainFragment: BrowseSupportFragment() {
                 "Drama · 2023",
                 R.mipmap.mishito,
                 "Tres historias que se entrelazan en una ciudad grande. Un drama emotivo sobre la vida, el amor y las segundas oportunidades.",
-                R.raw.nutella
+                R.raw.v11
             ),
             Video(
                 "La Última Promesa",
                 "Drama · 2023",
                 R.mipmap.mandarino,
                 "Un hombre lucha por cumplir la promesa que le hizo a su padre antes de morir. Un viaje emocional inolvidable.",
-                R.raw.utzmg
+                R.raw.v12
             ),
             Video(
                 "Sueños Rotos",
                 "Drama · 2023",
                 R.mipmap.mishito,
                 "Una bailarina debe enfrentarse a una lesión que amenaza con terminar su carrera. Superación y sacrificio.",
-                R.raw.nutella
+                R.raw.v13
             ),
             Video(
                 "Secretos de Familia",
                 "Drama · 2023",
                 R.mipmap.mandarino,
                 "Una familia aparentemente perfecta esconde secretos oscuros que finalmente salen a la luz.",
-                R.raw.utzmg
+                R.raw.v14
             ),
             Video(
                 "El Último Adiós",
                 "Drama · 2023",
                 R.mipmap.mishito,
                 "Una historia conmovedora sobre la despedida, el perdón y la reconciliación. Actuaciones memorables.",
-                R.raw.nutella
+                R.raw.v15
             )
         ))
         categories.add(ListRow(HeaderItem(3, "Drama"), dramaVideos))
@@ -148,35 +148,35 @@ class MainFragment: BrowseSupportFragment() {
                 "Ciencia Ficción · 2023",
                 R.mipmap.mandarino,
                 "Una nave espacial debe encontrar su camino de regreso a casa después de un salto hiperespacial fallido. Aventura cósmica épica.",
-                R.raw.utzmg
+                R.raw.v16
             ),
             Video(
                 "Inteligencia Artificial",
                 "Ciencia Ficción · 2023",
                 R.mipmap.mishito,
                 "En un futuro cercano, las IA desarrollan conciencia propia. Una reflexión sobre la humanidad y la tecnología.",
-                R.raw.nutella
+                R.raw.v17
             ),
             Video(
                 "Crononautas",
                 "Ciencia Ficción · 2023",
                 R.mipmap.mandarino,
                 "Un grupo de científicos viaja al pasado para evitar una catástrofe. Pero cambiar el tiempo tiene consecuencias.",
-                R.raw.utzmg
+                R.raw.v18
             ),
             Video(
                 "Planeta Desconocido",
                 "Ciencia Ficción · 2023",
                 R.mipmap.mishito,
                 "Los primeros colonos humanos llegan a un planeta alienígena lleno de misterios y peligros desconocidos.",
-                R.raw.nutella
+                R.raw.v19
             ),
             Video(
                 "Revolución Cibernética",
                 "Ciencia Ficción · 2023",
                 R.mipmap.mandarino,
                 "En un mundo donde la realidad virtual es más real que la vida misma, un hacker descubre la verdad oculta.",
-                R.raw.utzmg
+                R.raw.v20
             )
         ))
         categories.add(ListRow(HeaderItem(4, "Ciencia Ficción"), sciFiVideos))
@@ -189,35 +189,35 @@ class MainFragment: BrowseSupportFragment() {
                 "Terror · 2023",
                 R.mipmap.mishito,
                 "Una familia se muda a una casa antigua sin saber que está habitada por espíritus vengativos. Sustos garantizados.",
-                R.raw.nutella
+                R.raw.v21
             ),
             Video(
                 "Pesadillas Nocturnas",
                 "Terror · 2023",
                 R.mipmap.mandarino,
                 "Lo que comienza como sueños extraños se convierte en una pesadilla de la que no se puede despertar.",
-                R.raw.utzmg
+                R.raw.v22
             ),
             Video(
                 "El Ritual",
                 "Terror · 2023",
                 R.mipmap.mishito,
                 "Un grupo de amigos descubre un antiguo ritual en el bosque. Invocar fuerzas oscuras fue un grave error.",
-                R.raw.nutella
+                R.raw.v23
             ),
             Video(
                 "Sonidos en la Oscuridad",
                 "Terror · 2023",
                 R.mipmap.mandarino,
                 "Una familia sorda debe sobrevivir a una entidad que caza por el sonido. Terror psicológico intenso.",
-                R.raw.utzmg
+                R.raw.v24
             ),
             Video(
                 "El Último Exorcismo",
                 "Terror · 2023",
                 R.mipmap.mishito,
                 "Un sacerdote enfrenta su caso de posesión más difícil. Basada en hechos reales que te dejarán sin aliento.",
-                R.raw.nutella
+                R.raw.v25
             )
         ))
         categories.add(ListRow(HeaderItem(5, "Terror"), terrorVideos))
